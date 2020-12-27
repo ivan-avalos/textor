@@ -7,253 +7,272 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A32552D39F1860D2C01588F8A7F3623 /* SDStatusBarOverriderPost8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF303B9488F4D1F073B28EB545B8719 /* SDStatusBarOverriderPost8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12A4FDBA98DF3E5F60B1B08431BA75D4 /* SDStatusBarOverriderPre8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 66083C3892DB894A6B116759399A393E /* SDStatusBarOverriderPre8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B8A06CADF68B36F4B5DAA573420717B /* SDStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B50D20C57FC4FEA736451D888E04AE /* SDStatusBarManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1FC24A4ED17078B2184D11E463FA9AEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		3274CACAAC957C45E2AE0F73CF591DB4 /* SDStatusBarOverriderPost9_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0559CE308025A0266090143C5781864D /* SDStatusBarOverriderPost9_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		348A04F1169E8BCC5EEFF0BB9B04C750 /* SDStatusBarOverriderPost10_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 761AFE7BCC8281008962289E1FFC16CB /* SDStatusBarOverriderPost10_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		51A1ECB617B6A61EB7742A48D359E863 /* SDStatusBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 791C1C7A0B81AA8E85A6E4C5E696E1BC /* SDStatusBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A3FB56537122BED83455862E17B43EB /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C290E2CE36D5974C5A12B53475E1D40 /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5D4B9B559FA4DCF2F796E4110F1F70A5 /* SDStatusBarOverriderPost11_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEF1D9D99A2E6AE980CD8FAFABB7889 /* SDStatusBarOverriderPost11_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		82ED61E77FB56E27992B083E2D06E761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		834252B3159113A8427DD271F09A6AA5 /* SDStatusBarOverriderPost10_3.h in Headers */ = {isa = PBXBuildFile; fileRef = D68E03B48B841D0A71042DCAEF64B275 /* SDStatusBarOverriderPost10_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		855B8D503B58A83EB7B6D1EFEB6C9B2C /* SDStatusBarOverriderPost9_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F59D3604D034C9C1819E412824B74C5 /* SDStatusBarOverriderPost9_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A991C3E000504A484E6848B6EE1687FD /* SDStatusBarOverriderPost8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = C13ACF6F4BD4A1BAE093515502338B0B /* SDStatusBarOverriderPost8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AB68256899827561B7146B6233ABBE35 /* Pods-Textor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 126734E56DD2237C5674D24B341C3151 /* Pods-Textor-dummy.m */; };
-		ACC4767E0F6A1F9EBE334066649FAF30 /* SDStatusBarOverriderPost10_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 157A861B943D82572D59975201F52999 /* SDStatusBarOverriderPost10_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AED029D25A4A2E4895A57C94E61546F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		AFDD25A505C625C19A474AC7D4F4BBC7 /* Pods-Textor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8624A06464B4B9724FFA007DB9071D /* Pods-Textor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B459314DE4BB4B8EF904873CAA0EA557 /* SDStatusBarOverrider.h in Headers */ = {isa = PBXBuildFile; fileRef = 959B2450C8FB52798EE7CDE65CE86423 /* SDStatusBarOverrider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8AF0142F9DF3E7FDCDD14D43A65A01C /* SDStatusBarOverriderPost11_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D7FF050B298C40B2866F83056160CD /* SDStatusBarOverriderPost11_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9DF58A33639329D28A07FFAD9E11CCE /* SDStatusBarOverriderPost9_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF8B1B95A3B32019EC0E5B11C2F457F /* SDStatusBarOverriderPost9_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB3DF1F960ECA75BFC811E0CDD0C471A /* SimulatorStatusMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E74F5F15E31723F3CA1A5B824EF272F /* SimulatorStatusMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB52F0A37A9A065F5EA6F618B803CA71 /* SimulatorStatusMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42264D54ECDFD638D11DBFADEC60E /* SimulatorStatusMagic-dummy.m */; };
-		EE9F7DF4BE3297F9CC8BDA716F1125F4 /* SDStatusBarOverriderPost10_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 21763DB1D8BD0155A41D819FE86A53B2 /* SDStatusBarOverriderPost10_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F1B6F7DB20E975E3F8571C38E63CF048 /* SDStatusBarOverriderPost9_0.h in Headers */ = {isa = PBXBuildFile; fileRef = F158BFF888E2F092C305F4B48E11D151 /* SDStatusBarOverriderPost9_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F550C5A736E08CDBFF4E5753340DD7 /* SDStatusBarOverriderPre8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 748FB0E80C6BD7AE783608291DE25337 /* SDStatusBarOverriderPre8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB82D036EDC4EA014B10FE3EF820143 /* Pods-Textor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B06CB8093F12401F63F2BA68AF424A10 /* Pods-Textor-dummy.m */; };
+		13106BF79D3432016E8F4E7B5A90C532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		16A5C47083A3685EECD898D7CE0F9793 /* SDStatusBarOverriderPost10_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A26E903E04D523405C15A02F4C0EB /* SDStatusBarOverriderPost10_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		40B157C1CD87DEAB47B00B9C015B107E /* SDStatusBarOverriderPost10_3.h in Headers */ = {isa = PBXBuildFile; fileRef = F782C4DE0C57DF86E0BC9621451FCD86 /* SDStatusBarOverriderPost10_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44EE345CAC576F33DF5841D845BD3752 /* SDStatusBarOverriderPost10_0.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5EF85A30C0B399D71CFA3B129D8CD7 /* SDStatusBarOverriderPost10_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C72FE3F3FDD7623649E9798899723C /* SDStatusBarOverriderPost9_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E48009BCFA7749EC45D918CD283D2 /* SDStatusBarOverriderPost9_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5545A62AC5CD73DD0D8C8E8500F3A3CC /* SDStatusBarOverriderPost8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 1001315C8120CD513AFADC5E9A512F2E /* SDStatusBarOverriderPost8_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A27F31634433DD0DDF9CEADDD74FEF /* SDStatusBarOverriderPost8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 08ECF344587E5F63DEAC57E831408E13 /* SDStatusBarOverriderPost8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		61D92C4950217049F6D353B76F9E5555 /* SimulatorStatusMagic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DDF1EF7249FE97519E83247BAEEA8F /* SimulatorStatusMagic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		626925BB8D521E6E93BCE9077BE6AE51 /* SDStatusBarOverriderPost9_0.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3334912E1E3F60B7C6E81D26527513 /* SDStatusBarOverriderPost9_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67955D336368471ED1DE1385E51AEB0E /* SDStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E14E9D64B6979250B3AF4B20718BB5 /* SDStatusBarManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E32A71DECF03AC697E06C12CABF5D06 /* SDStatusBarOverriderPost9_3.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A069CD4CD1A9A797E28E7EAC99B7CE /* SDStatusBarOverriderPost9_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80FDB9B3654942F854B12B337D615382 /* SDStatusBarOverriderPost10_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 5506AB9B26CD43F57D5B6A691ED2FDE7 /* SDStatusBarOverriderPost10_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A1E7C33595432062EE08948B936C093A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		A437589864027BF10F8CE38AB488CB74 /* SDStatusBarOverriderPost11_0.h in Headers */ = {isa = PBXBuildFile; fileRef = 217712515ED3CF68F64FA57DED9FC668 /* SDStatusBarOverriderPost11_0.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB68A5BE4E5420981421DA30B1B81403 /* SDStatusBarOverrider.h in Headers */ = {isa = PBXBuildFile; fileRef = F122B5D9EE36B6F48DAA6EC5E78D722B /* SDStatusBarOverrider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06DCE36C692C65036FDF0F679DD8A4C /* Pods-Textor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F6D90A102A477C7E09156690C81CB7 /* Pods-Textor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2FE625192B3124B8B27BD4D975B7BF9 /* SimulatorStatusMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A249E98A56A7B06D7443E63EB980791C /* SimulatorStatusMagic-dummy.m */; };
+		BD7ECEF34DF4AD84969FF3FEC571BCF6 /* SDStatusBarOverriderPost11_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B96F086B3321202972930A63B69900 /* SDStatusBarOverriderPost11_0.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CCF7F4467A8F1A01779FB4D5A2AC1133 /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F1A5270692E640FFD2CB37469C09C4 /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1B476D83B4F8ECF28B134F6A5A5A726 /* SDStatusBarOverriderPost9_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D49E063FAE42F021FBACFD0A7277A9 /* SDStatusBarOverriderPost9_3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F524F963865168B4F5B12054D5E625 /* SDStatusBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 17526178E55EE735B8148976693FBC22 /* SDStatusBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F05F1E65290063E23F7D95CADD5E7D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C8DDD584BA99F8B2072453196B13256 /* PBXContainerItemProxy */ = {
+		E1DBAB295C448F50644C33D3DDD8EE34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D9FD0A445D89C2CD5D2D3A210CF24BC;
+			remoteGlobalIDString = 95F19093D340358F7EE721EC01F43355;
 			remoteInfo = SimulatorStatusMagic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0559CE308025A0266090143C5781864D /* SDStatusBarOverriderPost9_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost9_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost9_0.m; sourceTree = "<group>"; };
-		0C290E2CE36D5974C5A12B53475E1D40 /* SDStatusBarOverriderPre8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPre8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.m; sourceTree = "<group>"; };
-		0E74F5F15E31723F3CA1A5B824EF272F /* SimulatorStatusMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-umbrella.h"; sourceTree = "<group>"; };
-		126734E56DD2237C5674D24B341C3151 /* Pods-Textor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Textor-dummy.m"; sourceTree = "<group>"; };
-		157A861B943D82572D59975201F52999 /* SDStatusBarOverriderPost10_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.h; sourceTree = "<group>"; };
-		21763DB1D8BD0155A41D819FE86A53B2 /* SDStatusBarOverriderPost10_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost10_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.m; sourceTree = "<group>"; };
-		2724CE956E6EE0DFCD5679ED09DC3D41 /* Pods-Textor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Textor.debug.xcconfig"; sourceTree = "<group>"; };
-		3550EBBA4F4B2398EA80307C0D925EBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4094F357CCA95E93AFD31F06CF1E717A /* Pods_Textor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Textor.framework; path = "Pods-Textor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F59D3604D034C9C1819E412824B74C5 /* SDStatusBarOverriderPost9_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost9_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost9_3.m; sourceTree = "<group>"; };
-		4FF303B9488F4D1F073B28EB545B8719 /* SDStatusBarOverriderPost8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.h; sourceTree = "<group>"; };
-		5EF8B1B95A3B32019EC0E5B11C2F457F /* SDStatusBarOverriderPost9_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost9_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost9_3.h; sourceTree = "<group>"; };
-		66083C3892DB894A6B116759399A393E /* SDStatusBarOverriderPre8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPre8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.h; sourceTree = "<group>"; };
-		67D7FF050B298C40B2866F83056160CD /* SDStatusBarOverriderPost11_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost11_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost11_0.h; sourceTree = "<group>"; };
-		6EEF1D9D99A2E6AE980CD8FAFABB7889 /* SDStatusBarOverriderPost11_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost11_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost11_0.m; sourceTree = "<group>"; };
-		746F7A3BCD2FDCC0D0CBCCEDE48AF797 /* SimulatorStatusMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-prefix.pch"; sourceTree = "<group>"; };
-		761AFE7BCC8281008962289E1FFC16CB /* SDStatusBarOverriderPost10_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost10_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost10_3.m; sourceTree = "<group>"; };
-		76F1A4A96AA39E118624315DE5A90256 /* Pods-Textor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Textor-acknowledgements.plist"; sourceTree = "<group>"; };
-		791C1C7A0B81AA8E85A6E4C5E696E1BC /* SDStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarManager.h; path = SDStatusBarManager/SDStatusBarManager.h; sourceTree = "<group>"; };
-		7AF42264D54ECDFD638D11DBFADEC60E /* SimulatorStatusMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimulatorStatusMagic-dummy.m"; sourceTree = "<group>"; };
-		884EAC6197CF0C33FE57A3A18400B951 /* Pods-Textor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Textor.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		959B2450C8FB52798EE7CDE65CE86423 /* SDStatusBarOverrider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverrider.h; path = SDStatusBarManager/SDStatusBarOverrider.h; sourceTree = "<group>"; };
-		97B50D20C57FC4FEA736451D888E04AE /* SDStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarManager.m; path = SDStatusBarManager/SDStatusBarManager.m; sourceTree = "<group>"; };
-		9E97B89EAB4805070D251EDAA753C404 /* Pods-Textor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Textor-frameworks.sh"; sourceTree = "<group>"; };
-		A167772F9E4DE0B1AADB62A022C9B69C /* Pods-Textor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Textor.release.xcconfig"; sourceTree = "<group>"; };
-		B59932E66C791AF3A463A202D33F09CF /* Pods-Textor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Textor-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9A25688817DC44BAA90376352C1BD20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD42418057AA4812FA66AE29E1C95B03 /* SimulatorStatusMagic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimulatorStatusMagic.modulemap; sourceTree = "<group>"; };
-		C13ACF6F4BD4A1BAE093515502338B0B /* SDStatusBarOverriderPost8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.m; sourceTree = "<group>"; };
-		D68E03B48B841D0A71042DCAEF64B275 /* SDStatusBarOverriderPost10_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_3.h; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D94498157258863C96FA5726FD9F73B8 /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimulatorStatusMagic.framework; path = SimulatorStatusMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F158BFF888E2F092C305F4B48E11D151 /* SDStatusBarOverriderPost9_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost9_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost9_0.h; sourceTree = "<group>"; };
-		F501FEB78EA8758D892CD794DEEB8445 /* SimulatorStatusMagic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorStatusMagic.xcconfig; sourceTree = "<group>"; };
-		FA87DB1732F16989A1C5BD4DDB2DE95F /* Pods-Textor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Textor-resources.sh"; sourceTree = "<group>"; };
-		FC8624A06464B4B9724FFA007DB9071D /* Pods-Textor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Textor-umbrella.h"; sourceTree = "<group>"; };
+		0591217A5F0114015F9485C9DBFFD62A /* SimulatorStatusMagic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimulatorStatusMagic-Info.plist"; sourceTree = "<group>"; };
+		06B96F086B3321202972930A63B69900 /* SDStatusBarOverriderPost11_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost11_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost11_0.m; sourceTree = "<group>"; };
+		08ECF344587E5F63DEAC57E831408E13 /* SDStatusBarOverriderPost8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.m; sourceTree = "<group>"; };
+		093D2019700457BEAA80A9475BD4CA1E /* SimulatorStatusMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-prefix.pch"; sourceTree = "<group>"; };
+		0E4B1922E90683153DC3D0374B7B14B5 /* Pods_Textor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Textor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1001315C8120CD513AFADC5E9A512F2E /* SDStatusBarOverriderPost8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.h; sourceTree = "<group>"; };
+		17526178E55EE735B8148976693FBC22 /* SDStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarManager.h; path = SDStatusBarManager/SDStatusBarManager.h; sourceTree = "<group>"; };
+		20FB22DC73892D512D125925BD61600E /* Pods-Textor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Textor-Info.plist"; sourceTree = "<group>"; };
+		217712515ED3CF68F64FA57DED9FC668 /* SDStatusBarOverriderPost11_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost11_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost11_0.h; sourceTree = "<group>"; };
+		2B7E48009BCFA7749EC45D918CD283D2 /* SDStatusBarOverriderPost9_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost9_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost9_0.m; sourceTree = "<group>"; };
+		329DF8F3A285784D8C95DFED022A9434 /* SimulatorStatusMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorStatusMagic.debug.xcconfig; sourceTree = "<group>"; };
+		35E14E9D64B6979250B3AF4B20718BB5 /* SDStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarManager.m; path = SDStatusBarManager/SDStatusBarManager.m; sourceTree = "<group>"; };
+		43F1A5270692E640FFD2CB37469C09C4 /* SDStatusBarOverriderPre8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPre8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.m; sourceTree = "<group>"; };
+		4619C15EFB9FECFA481247380FD53A43 /* SimulatorStatusMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimulatorStatusMagic.release.xcconfig; sourceTree = "<group>"; };
+		5506AB9B26CD43F57D5B6A691ED2FDE7 /* SDStatusBarOverriderPost10_0.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost10_0.m; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.m; sourceTree = "<group>"; };
+		55F6D90A102A477C7E09156690C81CB7 /* Pods-Textor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Textor-umbrella.h"; sourceTree = "<group>"; };
+		748FB0E80C6BD7AE783608291DE25337 /* SDStatusBarOverriderPre8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPre8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.h; sourceTree = "<group>"; };
+		866A26E903E04D523405C15A02F4C0EB /* SDStatusBarOverriderPost10_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost10_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost10_3.m; sourceTree = "<group>"; };
+		8AB0D100F6C96D7AF7689F4FC2727918 /* SimulatorStatusMagic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimulatorStatusMagic.modulemap; sourceTree = "<group>"; };
+		8BBC766F2A9D5686CC6341A01E053661 /* Pods-Textor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Textor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92D49E063FAE42F021FBACFD0A7277A9 /* SDStatusBarOverriderPost9_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost9_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost9_3.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A249E98A56A7B06D7443E63EB980791C /* SimulatorStatusMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimulatorStatusMagic-dummy.m"; sourceTree = "<group>"; };
+		A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimulatorStatusMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06CB8093F12401F63F2BA68AF424A10 /* Pods-Textor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Textor-dummy.m"; sourceTree = "<group>"; };
+		B8526C9704DAB95703867E89F3008AFD /* Pods-Textor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Textor.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5EF85A30C0B399D71CFA3B129D8CD7 /* SDStatusBarOverriderPost10_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_0.h; sourceTree = "<group>"; };
+		BF3334912E1E3F60B7C6E81D26527513 /* SDStatusBarOverriderPost9_0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost9_0.h; path = SDStatusBarManager/SDStatusBarOverriderPost9_0.h; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E698064A5289B803F3D7FDE83F64C046 /* Pods-Textor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Textor-acknowledgements.plist"; sourceTree = "<group>"; };
+		E723CF5B73EF94274906FF2AFAE73563 /* Pods-Textor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Textor.release.xcconfig"; sourceTree = "<group>"; };
+		E7F66C81889F4A8478150564D823D1F2 /* Pods-Textor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Textor.modulemap"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEC006C9FB90565EAA0A72CB4FEB55BC /* Pods-Textor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Textor-frameworks.sh"; sourceTree = "<group>"; };
+		F122B5D9EE36B6F48DAA6EC5E78D722B /* SDStatusBarOverrider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverrider.h; path = SDStatusBarManager/SDStatusBarOverrider.h; sourceTree = "<group>"; };
+		F2DDF1EF7249FE97519E83247BAEEA8F /* SimulatorStatusMagic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimulatorStatusMagic-umbrella.h"; sourceTree = "<group>"; };
+		F782C4DE0C57DF86E0BC9621451FCD86 /* SDStatusBarOverriderPost10_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost10_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost10_3.h; sourceTree = "<group>"; };
+		F9A069CD4CD1A9A797E28E7EAC99B7CE /* SDStatusBarOverriderPost9_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost9_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost9_3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		706EAE7D0921D8229563DD140B823CEF /* Frameworks */ = {
+		2077AFF6E534449591A647BA4D0C9DA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC24A4ED17078B2184D11E463FA9AEC /* Foundation.framework in Frameworks */,
-				AED029D25A4A2E4895A57C94E61546F6 /* UIKit.framework in Frameworks */,
+				13106BF79D3432016E8F4E7B5A90C532 /* Foundation.framework in Frameworks */,
+				A1E7C33595432062EE08948B936C093A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F25AE4042E8DCB8CEC2C1424B2CFBD /* Frameworks */ = {
+		6039855D9902EE30B7763BE22F42A19D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82ED61E77FB56E27992B083E2D06E761 /* Foundation.framework in Frameworks */,
+				F05F1E65290063E23F7D95CADD5E7D74 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F964DAA34F339E02CE1BBEE645BBF6B /* SimulatorStatusMagic */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				791C1C7A0B81AA8E85A6E4C5E696E1BC /* SDStatusBarManager.h */,
-				97B50D20C57FC4FEA736451D888E04AE /* SDStatusBarManager.m */,
-				959B2450C8FB52798EE7CDE65CE86423 /* SDStatusBarOverrider.h */,
-				157A861B943D82572D59975201F52999 /* SDStatusBarOverriderPost10_0.h */,
-				21763DB1D8BD0155A41D819FE86A53B2 /* SDStatusBarOverriderPost10_0.m */,
-				D68E03B48B841D0A71042DCAEF64B275 /* SDStatusBarOverriderPost10_3.h */,
-				761AFE7BCC8281008962289E1FFC16CB /* SDStatusBarOverriderPost10_3.m */,
-				67D7FF050B298C40B2866F83056160CD /* SDStatusBarOverriderPost11_0.h */,
-				6EEF1D9D99A2E6AE980CD8FAFABB7889 /* SDStatusBarOverriderPost11_0.m */,
-				4FF303B9488F4D1F073B28EB545B8719 /* SDStatusBarOverriderPost8_3.h */,
-				C13ACF6F4BD4A1BAE093515502338B0B /* SDStatusBarOverriderPost8_3.m */,
-				F158BFF888E2F092C305F4B48E11D151 /* SDStatusBarOverriderPost9_0.h */,
-				0559CE308025A0266090143C5781864D /* SDStatusBarOverriderPost9_0.m */,
-				5EF8B1B95A3B32019EC0E5B11C2F457F /* SDStatusBarOverriderPost9_3.h */,
-				4F59D3604D034C9C1819E412824B74C5 /* SDStatusBarOverriderPost9_3.m */,
-				66083C3892DB894A6B116759399A393E /* SDStatusBarOverriderPre8_3.h */,
-				0C290E2CE36D5974C5A12B53475E1D40 /* SDStatusBarOverriderPre8_3.m */,
-				FC8BE7D0931934EB85727390EEFCB5F9 /* Support Files */,
-			);
-			name = SimulatorStatusMagic;
-			path = SimulatorStatusMagic;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		5EAA62B7E66252BDAF4C8B982A0525EB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				CAC6AD626B019A45C84C439C5F3982D5 /* Pods */,
-				CF18F0D411405247A987A36C442F6843 /* Products */,
-				A161EBE6FB239555ED7B5FE1A0F3FD87 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A161EBE6FB239555ED7B5FE1A0F3FD87 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB1A5EE4C4A712ACC7BFD6B7CD733592 /* Pods-Textor */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CAC6AD626B019A45C84C439C5F3982D5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0F964DAA34F339E02CE1BBEE645BBF6B /* SimulatorStatusMagic */,
+				5FF25B5EEFB26B5455100258D9F33A2A /* SimulatorStatusMagic */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CF18F0D411405247A987A36C442F6843 /* Products */ = {
+		5FF25B5EEFB26B5455100258D9F33A2A /* SimulatorStatusMagic */ = {
 			isa = PBXGroup;
 			children = (
-				4094F357CCA95E93AFD31F06CF1E717A /* Pods_Textor.framework */,
-				D94498157258863C96FA5726FD9F73B8 /* SimulatorStatusMagic.framework */,
+				17526178E55EE735B8148976693FBC22 /* SDStatusBarManager.h */,
+				35E14E9D64B6979250B3AF4B20718BB5 /* SDStatusBarManager.m */,
+				F122B5D9EE36B6F48DAA6EC5E78D722B /* SDStatusBarOverrider.h */,
+				BA5EF85A30C0B399D71CFA3B129D8CD7 /* SDStatusBarOverriderPost10_0.h */,
+				5506AB9B26CD43F57D5B6A691ED2FDE7 /* SDStatusBarOverriderPost10_0.m */,
+				F782C4DE0C57DF86E0BC9621451FCD86 /* SDStatusBarOverriderPost10_3.h */,
+				866A26E903E04D523405C15A02F4C0EB /* SDStatusBarOverriderPost10_3.m */,
+				217712515ED3CF68F64FA57DED9FC668 /* SDStatusBarOverriderPost11_0.h */,
+				06B96F086B3321202972930A63B69900 /* SDStatusBarOverriderPost11_0.m */,
+				1001315C8120CD513AFADC5E9A512F2E /* SDStatusBarOverriderPost8_3.h */,
+				08ECF344587E5F63DEAC57E831408E13 /* SDStatusBarOverriderPost8_3.m */,
+				BF3334912E1E3F60B7C6E81D26527513 /* SDStatusBarOverriderPost9_0.h */,
+				2B7E48009BCFA7749EC45D918CD283D2 /* SDStatusBarOverriderPost9_0.m */,
+				92D49E063FAE42F021FBACFD0A7277A9 /* SDStatusBarOverriderPost9_3.h */,
+				F9A069CD4CD1A9A797E28E7EAC99B7CE /* SDStatusBarOverriderPost9_3.m */,
+				748FB0E80C6BD7AE783608291DE25337 /* SDStatusBarOverriderPre8_3.h */,
+				43F1A5270692E640FFD2CB37469C09C4 /* SDStatusBarOverriderPre8_3.m */,
+				81FE305BECDE62EED595F539A1F74C5B /* Support Files */,
 			);
-			name = Products;
+			path = SimulatorStatusMagic;
 			sourceTree = "<group>";
 		};
-		FB1A5EE4C4A712ACC7BFD6B7CD733592 /* Pods-Textor */ = {
+		81FE305BECDE62EED595F539A1F74C5B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B9A25688817DC44BAA90376352C1BD20 /* Info.plist */,
-				884EAC6197CF0C33FE57A3A18400B951 /* Pods-Textor.modulemap */,
-				B59932E66C791AF3A463A202D33F09CF /* Pods-Textor-acknowledgements.markdown */,
-				76F1A4A96AA39E118624315DE5A90256 /* Pods-Textor-acknowledgements.plist */,
-				126734E56DD2237C5674D24B341C3151 /* Pods-Textor-dummy.m */,
-				9E97B89EAB4805070D251EDAA753C404 /* Pods-Textor-frameworks.sh */,
-				FA87DB1732F16989A1C5BD4DDB2DE95F /* Pods-Textor-resources.sh */,
-				FC8624A06464B4B9724FFA007DB9071D /* Pods-Textor-umbrella.h */,
-				2724CE956E6EE0DFCD5679ED09DC3D41 /* Pods-Textor.debug.xcconfig */,
-				A167772F9E4DE0B1AADB62A022C9B69C /* Pods-Textor.release.xcconfig */,
-			);
-			name = "Pods-Textor";
-			path = "Target Support Files/Pods-Textor";
-			sourceTree = "<group>";
-		};
-		FC8BE7D0931934EB85727390EEFCB5F9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3550EBBA4F4B2398EA80307C0D925EBC /* Info.plist */,
-				BD42418057AA4812FA66AE29E1C95B03 /* SimulatorStatusMagic.modulemap */,
-				F501FEB78EA8758D892CD794DEEB8445 /* SimulatorStatusMagic.xcconfig */,
-				7AF42264D54ECDFD638D11DBFADEC60E /* SimulatorStatusMagic-dummy.m */,
-				746F7A3BCD2FDCC0D0CBCCEDE48AF797 /* SimulatorStatusMagic-prefix.pch */,
-				0E74F5F15E31723F3CA1A5B824EF272F /* SimulatorStatusMagic-umbrella.h */,
+				8AB0D100F6C96D7AF7689F4FC2727918 /* SimulatorStatusMagic.modulemap */,
+				A249E98A56A7B06D7443E63EB980791C /* SimulatorStatusMagic-dummy.m */,
+				0591217A5F0114015F9485C9DBFFD62A /* SimulatorStatusMagic-Info.plist */,
+				093D2019700457BEAA80A9475BD4CA1E /* SimulatorStatusMagic-prefix.pch */,
+				F2DDF1EF7249FE97519E83247BAEEA8F /* SimulatorStatusMagic-umbrella.h */,
+				329DF8F3A285784D8C95DFED022A9434 /* SimulatorStatusMagic.debug.xcconfig */,
+				4619C15EFB9FECFA481247380FD53A43 /* SimulatorStatusMagic.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SimulatorStatusMagic";
 			sourceTree = "<group>";
 		};
+		B6B786F35A53177F2EBA845A8C3D23CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6F3785A1CCEAB0773CECD87E0D67E66 /* Pods-Textor */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6F3785A1CCEAB0773CECD87E0D67E66 /* Pods-Textor */ = {
+			isa = PBXGroup;
+			children = (
+				E7F66C81889F4A8478150564D823D1F2 /* Pods-Textor.modulemap */,
+				8BBC766F2A9D5686CC6341A01E053661 /* Pods-Textor-acknowledgements.markdown */,
+				E698064A5289B803F3D7FDE83F64C046 /* Pods-Textor-acknowledgements.plist */,
+				B06CB8093F12401F63F2BA68AF424A10 /* Pods-Textor-dummy.m */,
+				EEC006C9FB90565EAA0A72CB4FEB55BC /* Pods-Textor-frameworks.sh */,
+				20FB22DC73892D512D125925BD61600E /* Pods-Textor-Info.plist */,
+				55F6D90A102A477C7E09156690C81CB7 /* Pods-Textor-umbrella.h */,
+				B8526C9704DAB95703867E89F3008AFD /* Pods-Textor.debug.xcconfig */,
+				E723CF5B73EF94274906FF2AFAE73563 /* Pods-Textor.release.xcconfig */,
+			);
+			name = "Pods-Textor";
+			path = "Target Support Files/Pods-Textor";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				5EAA62B7E66252BDAF4C8B982A0525EB /* Pods */,
+				DF886D9EEC90B4905B78692234F5855A /* Products */,
+				B6B786F35A53177F2EBA845A8C3D23CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF886D9EEC90B4905B78692234F5855A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4B1922E90683153DC3D0374B7B14B5 /* Pods_Textor.framework */,
+				A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		879FC10B4B3CDB4ED87172F0D2EE73E6 /* Headers */ = {
+		01A5371D5A3AF476AB190967E18BC59B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A1ECB617B6A61EB7742A48D359E863 /* SDStatusBarManager.h in Headers */,
-				B459314DE4BB4B8EF904873CAA0EA557 /* SDStatusBarOverrider.h in Headers */,
-				ACC4767E0F6A1F9EBE334066649FAF30 /* SDStatusBarOverriderPost10_0.h in Headers */,
-				834252B3159113A8427DD271F09A6AA5 /* SDStatusBarOverriderPost10_3.h in Headers */,
-				B8AF0142F9DF3E7FDCDD14D43A65A01C /* SDStatusBarOverriderPost11_0.h in Headers */,
-				0A32552D39F1860D2C01588F8A7F3623 /* SDStatusBarOverriderPost8_3.h in Headers */,
-				F1B6F7DB20E975E3F8571C38E63CF048 /* SDStatusBarOverriderPost9_0.h in Headers */,
-				B9DF58A33639329D28A07FFAD9E11CCE /* SDStatusBarOverriderPost9_3.h in Headers */,
-				12A4FDBA98DF3E5F60B1B08431BA75D4 /* SDStatusBarOverriderPre8_3.h in Headers */,
-				BB3DF1F960ECA75BFC811E0CDD0C471A /* SimulatorStatusMagic-umbrella.h in Headers */,
+				D3F524F963865168B4F5B12054D5E625 /* SDStatusBarManager.h in Headers */,
+				AB68A5BE4E5420981421DA30B1B81403 /* SDStatusBarOverrider.h in Headers */,
+				44EE345CAC576F33DF5841D845BD3752 /* SDStatusBarOverriderPost10_0.h in Headers */,
+				40B157C1CD87DEAB47B00B9C015B107E /* SDStatusBarOverriderPost10_3.h in Headers */,
+				A437589864027BF10F8CE38AB488CB74 /* SDStatusBarOverriderPost11_0.h in Headers */,
+				5545A62AC5CD73DD0D8C8E8500F3A3CC /* SDStatusBarOverriderPost8_3.h in Headers */,
+				626925BB8D521E6E93BCE9077BE6AE51 /* SDStatusBarOverriderPost9_0.h in Headers */,
+				D1B476D83B4F8ECF28B134F6A5A5A726 /* SDStatusBarOverriderPost9_3.h in Headers */,
+				08F550C5A736E08CDBFF4E5753340DD7 /* SDStatusBarOverriderPre8_3.h in Headers */,
+				61D92C4950217049F6D353B76F9E5555 /* SimulatorStatusMagic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F57029B467C29952C7031085E8B055D9 /* Headers */ = {
+		BC0F4E739BF302ADF8793F1AB44F1624 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDD25A505C625C19A474AC7D4F4BBC7 /* Pods-Textor-umbrella.h in Headers */,
+				B06DCE36C692C65036FDF0F679DD8A4C /* Pods-Textor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3D9FD0A445D89C2CD5D2D3A210CF24BC /* SimulatorStatusMagic */ = {
+		4CFFE9C303F30D70C6D041483476F8FF /* Pods-Textor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40E81A97FAFD20805FC345B82E93CB67 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */;
+			buildConfigurationList = 0AF8A63E1A08A63CA7A4800E80DF87A0 /* Build configuration list for PBXNativeTarget "Pods-Textor" */;
 			buildPhases = (
-				3F8EA426C303E29D5B7F628CF2E6B8D0 /* Sources */,
-				706EAE7D0921D8229563DD140B823CEF /* Frameworks */,
-				879FC10B4B3CDB4ED87172F0D2EE73E6 /* Headers */,
+				BC0F4E739BF302ADF8793F1AB44F1624 /* Headers */,
+				55D1AF0BD5BD604D01D4D15EA741D814 /* Sources */,
+				6039855D9902EE30B7763BE22F42A19D /* Frameworks */,
+				B506F0E8C4BE2BA0FE88E99831D1CFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF65350DEAD9E8D49B57FCF2D7F06E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Textor";
+			productName = "Pods-Textor";
+			productReference = 0E4B1922E90683153DC3D0374B7B14B5 /* Pods_Textor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95F19093D340358F7EE721EC01F43355 /* SimulatorStatusMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B529C47DF0AE90C509485C61EB75177 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */;
+			buildPhases = (
+				01A5371D5A3AF476AB190967E18BC59B /* Headers */,
+				5DF50AAB7471ED22B616D03FB425580C /* Sources */,
+				2077AFF6E534449591A647BA4D0C9DA7 /* Frameworks */,
+				30959AD3EEEE7EEE729B8A1DC4D3AC0B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -261,96 +280,95 @@
 			);
 			name = SimulatorStatusMagic;
 			productName = SimulatorStatusMagic;
-			productReference = D94498157258863C96FA5726FD9F73B8 /* SimulatorStatusMagic.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		496437A159CB7060EDE167EDC54CCE6A /* Pods-Textor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82F2986532D8F48FDDC42E102DE9F979 /* Build configuration list for PBXNativeTarget "Pods-Textor" */;
-			buildPhases = (
-				CD5A596E72E17A5AEBDD842E8171CF55 /* Sources */,
-				87F25AE4042E8DCB8CEC2C1424B2CFBD /* Frameworks */,
-				F57029B467C29952C7031085E8B055D9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7B7CB868A034734E96797F49811CDE6 /* PBXTargetDependency */,
-			);
-			name = "Pods-Textor";
-			productName = "Pods-Textor";
-			productReference = 4094F357CCA95E93AFD31F06CF1E717A /* Pods_Textor.framework */;
+			productReference = A787CDE742CEB6FDF5F73F556D790691 /* SimulatorStatusMagic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1230;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CF18F0D411405247A987A36C442F6843 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DF886D9EEC90B4905B78692234F5855A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				496437A159CB7060EDE167EDC54CCE6A /* Pods-Textor */,
-				3D9FD0A445D89C2CD5D2D3A210CF24BC /* SimulatorStatusMagic */,
+				4CFFE9C303F30D70C6D041483476F8FF /* Pods-Textor */,
+				95F19093D340358F7EE721EC01F43355 /* SimulatorStatusMagic */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		3F8EA426C303E29D5B7F628CF2E6B8D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		30959AD3EEEE7EEE729B8A1DC4D3AC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8A06CADF68B36F4B5DAA573420717B /* SDStatusBarManager.m in Sources */,
-				EE9F7DF4BE3297F9CC8BDA716F1125F4 /* SDStatusBarOverriderPost10_0.m in Sources */,
-				348A04F1169E8BCC5EEFF0BB9B04C750 /* SDStatusBarOverriderPost10_3.m in Sources */,
-				5D4B9B559FA4DCF2F796E4110F1F70A5 /* SDStatusBarOverriderPost11_0.m in Sources */,
-				A991C3E000504A484E6848B6EE1687FD /* SDStatusBarOverriderPost8_3.m in Sources */,
-				3274CACAAC957C45E2AE0F73CF591DB4 /* SDStatusBarOverriderPost9_0.m in Sources */,
-				855B8D503B58A83EB7B6D1EFEB6C9B2C /* SDStatusBarOverriderPost9_3.m in Sources */,
-				5A3FB56537122BED83455862E17B43EB /* SDStatusBarOverriderPre8_3.m in Sources */,
-				BB52F0A37A9A065F5EA6F618B803CA71 /* SimulatorStatusMagic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD5A596E72E17A5AEBDD842E8171CF55 /* Sources */ = {
+		B506F0E8C4BE2BA0FE88E99831D1CFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D1AF0BD5BD604D01D4D15EA741D814 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB68256899827561B7146B6233ABBE35 /* Pods-Textor-dummy.m in Sources */,
+				0DB82D036EDC4EA014B10FE3EF820143 /* Pods-Textor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF50AAB7471ED22B616D03FB425580C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67955D336368471ED1DE1385E51AEB0E /* SDStatusBarManager.m in Sources */,
+				80FDB9B3654942F854B12B337D615382 /* SDStatusBarOverriderPost10_0.m in Sources */,
+				16A5C47083A3685EECD898D7CE0F9793 /* SDStatusBarOverriderPost10_3.m in Sources */,
+				BD7ECEF34DF4AD84969FF3FEC571BCF6 /* SDStatusBarOverriderPost11_0.m in Sources */,
+				60A27F31634433DD0DDF9CEADDD74FEF /* SDStatusBarOverriderPost8_3.m in Sources */,
+				50C72FE3F3FDD7623649E9798899723C /* SDStatusBarOverriderPost9_0.m in Sources */,
+				6E32A71DECF03AC697E06C12CABF5D06 /* SDStatusBarOverriderPost9_3.m in Sources */,
+				CCF7F4467A8F1A01779FB4D5A2AC1133 /* SDStatusBarOverriderPre8_3.m in Sources */,
+				B2FE625192B3124B8B27BD4D975B7BF9 /* SimulatorStatusMagic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D7B7CB868A034734E96797F49811CDE6 /* PBXTargetDependency */ = {
+		4AF65350DEAD9E8D49B57FCF2D7F06E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimulatorStatusMagic;
-			target = 3D9FD0A445D89C2CD5D2D3A210CF24BC /* SimulatorStatusMagic */;
-			targetProxy = 4C8DDD584BA99F8B2072453196B13256 /* PBXContainerItemProxy */;
+			target = 95F19093D340358F7EE721EC01F43355 /* SimulatorStatusMagic */;
+			targetProxy = E1DBAB295C448F50644C33D3DDD8EE34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05B9DDBCB1D95BBC1CC62A21304834C5 /* Debug */ = {
+		8B61F780A04C303A1A14F284059E6841 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F501FEB78EA8758D892CD794DEEB8445 /* SimulatorStatusMagic.xcconfig */;
+			baseConfigurationReference = 329DF8F3A285784D8C95DFED022A9434 /* SimulatorStatusMagic.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -360,9 +378,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimulatorStatusMagic/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic.modulemap";
 				PRODUCT_MODULE_NAME = SimulatorStatusMagic;
@@ -377,10 +395,11 @@
 			};
 			name = Debug;
 		};
-		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -403,14 +422,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -427,21 +445,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		77F20B450E387E618D22931785406D3F /* Release */ = {
+		974B28A0672D6F00A0AF74B6FFED1901 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A167772F9E4DE0B1AADB62A022C9B69C /* Pods-Textor.release.xcconfig */;
+			baseConfigurationReference = 4619C15EFB9FECFA481247380FD53A43 /* SimulatorStatusMagic.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -450,19 +468,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Textor/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Textor/Pods-Textor.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic.modulemap";
+				PRODUCT_MODULE_NAME = SimulatorStatusMagic;
+				PRODUCT_NAME = SimulatorStatusMagic;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -470,10 +487,11 @@
 			};
 			name = Release;
 		};
-		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -496,14 +514,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -523,55 +540,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		AB48B36D5C5AA8FBF34AB15ADFF53FDD /* Release */ = {
+		E030F0006F4A5FC7A188FDBCD20CD5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F501FEB78EA8758D892CD794DEEB8445 /* SimulatorStatusMagic.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SimulatorStatusMagic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic.modulemap";
-				PRODUCT_MODULE_NAME = SimulatorStatusMagic;
-				PRODUCT_NAME = SimulatorStatusMagic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D413418AD8E6FB2FDD246FB02B105603 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2724CE956E6EE0DFCD5679ED09DC3D41 /* Pods-Textor.debug.xcconfig */;
+			baseConfigurationReference = B8526C9704DAB95703867E89F3008AFD /* Pods-Textor.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -580,9 +567,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Textor/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Textor/Pods-Textor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Textor/Pods-Textor.modulemap";
@@ -599,37 +586,71 @@
 			};
 			name = Debug;
 		};
+		FC448B1C302B7E3DADFFFD8675402E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E723CF5B73EF94274906FF2AFAE73563 /* Pods-Textor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Textor/Pods-Textor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Textor/Pods-Textor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0AF8A63E1A08A63CA7A4800E80DF87A0 /* Build configuration list for PBXNativeTarget "Pods-Textor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
-				08638A96A528B1EC32DE62F8A728389D /* Release */,
+				E030F0006F4A5FC7A188FDBCD20CD5D4 /* Debug */,
+				FC448B1C302B7E3DADFFFD8675402E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40E81A97FAFD20805FC345B82E93CB67 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05B9DDBCB1D95BBC1CC62A21304834C5 /* Debug */,
-				AB48B36D5C5AA8FBF34AB15ADFF53FDD /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82F2986532D8F48FDDC42E102DE9F979 /* Build configuration list for PBXNativeTarget "Pods-Textor" */ = {
+		5B529C47DF0AE90C509485C61EB75177 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D413418AD8E6FB2FDD246FB02B105603 /* Debug */,
-				77F20B450E387E618D22931785406D3F /* Release */,
+				8B61F780A04C303A1A14F284059E6841 /* Debug */,
+				974B28A0672D6F00A0AF74B6FFED1901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
